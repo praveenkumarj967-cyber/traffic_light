@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="traffic.css" />
+    <script src="traffic.js"></script>
+</head>
+
+<body>
+    <div class="background">
+        <h1 class="traffic_color">Traffic Light</h1>
+        <div class="d-flex flex-row">
+            <div class="d-flex flex-column justify-content-center buttons">
+                <button class="stop mb-5 mt-5 ml-5" id="stopButton" onclick="function1()">Stop</button>
+                <button class="stop mb-5 ml-5" id="readyButton" onclick="function2()">Ready</button>
+                <button class="stop mb-5 ml-5" id="goButton" onclick="function3()">Go</button>
+            </div>
+            <div class="bg2 ml-5 mt-3">
+                <div class="red" id="stopLight"></div>
+                <div class="yellow mt-5" id="readyLight"></div>
+                <div class="green mt-5" id="goLight"></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
